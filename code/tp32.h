@@ -1,18 +1,23 @@
-/*
- * @Description    : 
- * @version        : 
- * @Author         : JunLee
- * @Date           : 2022-01-06 14:34:42
- * @LastEditTime   : 2022-01-27 11:33:45
- * @FilePath       : \qmk_firmware\keyboards\7liang\tp32\tp32.h
+/* Copyright 2022 SevenLiang(@skyjun)
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
-// Copyright 2022 Pkerr (@sky_jun@qq.com)
-// SPDX-License-Identifier: GPL-2.0-or-later
 
 #pragma once
 
 #include "quantum.h"
 
 #ifdef KEYBOARD_7liang_tp32_v1
-    #include "v1.h"
+#   include "v1.h"
 #endif
